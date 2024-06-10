@@ -83,7 +83,7 @@ Ontology Visualizers
 - [webvowl](https://service.tib.eu/webvowl/)
 
 Online Triplestores
--[AllegroGraph Web-hosted Triplestore] (https://allegrograph.cloud/signin)
+-[AllegroGraph Web-hosted Triplestore](https://allegrograph.cloud/signin)
 
 Cool communities/conferences/schools and so forth:
 - [LDAC and SSoLDAC](https://linkedbuildingdata.net/ldac/) hosting a yearly workshop on LBD for the AEC industry
