@@ -78,6 +78,13 @@ IFC + LBD visualizers
 - [LBDviz](https://alexdonkers.github.io/LBDviz/dist/index.html)
 - [LD-BIM](https://ld-bim.web.app/)
 
+Ontology Visualizers
+- [OWLGrEd](http://owlgred.lumii.lv/)
+- [webvowl](https://service.tib.eu/webvowl/)
+
+Online Triplestores
+-[AllegroGraph Web-hosted Triplestore] (https://allegrograph.cloud/signin)
+
 Cool communities/conferences/schools and so forth:
 - [LDAC and SSoLDAC](https://linkedbuildingdata.net/ldac/) hosting a yearly workshop on LBD for the AEC industry
 - [W3C Linked Building Data Community Group](https://www.w3.org/community/lbd/) hosting triweekly technical meetings on LBD
