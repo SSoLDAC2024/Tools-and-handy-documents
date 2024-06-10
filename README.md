@@ -25,6 +25,11 @@ Ontology editors:
 Converters
 - [IFC-to-LBD](https://github.com/jyrkioraskari/IFCtoLBD)
 
+Graph Databases / Query Engines
+- [GraphDB Free](https://www.ontotext.com/products/graphdb/download/)
+- [Apache Jena Fuseki (open source)](https://jena.apache.org/documentation/fuseki2/)
+- [Comunica (client-side querying)](https://comunica.github.io/comunica/)
+
 Validation
 - [OOPS!](https://oops.linkeddata.es/)
 - [RDF TTL syntax validator](http://ttl.summerofcode.be/)
