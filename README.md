@@ -62,6 +62,17 @@ LBD ontologies:
 - Products: [BPO](https://annawagner.github.io/bpo/)
 - Provenance, metadata: [PROV-O](https://www.w3.org/TR/prov-o/), [DCAT](https://www.w3.org/TR/vocab-dcat-2/), [DublinCore](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
 
+Software tools and python libraries:
+- [rdflib](https://rdflib.readthedocs.io/en/stable/) pip install rdflib
+- [IfcOpenShell](https://ifcopenshell.org/) pip install ifcopenshell
+- [OWLRL](https://owl-rl.readthedocs.io/en/latest/owlrl.html) pip install owlrl
+- [pandas](https://pandas.pydata.org/) pip install pandas
+- [requests](https://pypi.org/project/requests/) pip install requests
+
+IFC + LBD visualizers
+- [LBDviz](https://alexdonkers.github.io/LBDviz/dist/index.html)
+- [LD-BIM](https://ld-bim.web.app/)
+
 Cool communities/conferences/schools and so forth:
 - [LDAC and SSoLDAC](https://linkedbuildingdata.net/ldac/) hosting a yearly workshop on LBD for the AEC industry
 - [W3C Linked Building Data Community Group](https://www.w3.org/community/lbd/) hosting triweekly technical meetings on LBD
