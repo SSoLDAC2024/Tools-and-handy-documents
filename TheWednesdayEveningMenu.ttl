@@ -1,3 +1,7 @@
+# Query this menu here: https://query.comunica.dev/#datasources=https%3A%2F%2Fraw.githubusercontent.com%2FSSoLDAC2024%2FTools-and-handy-documents%2Fmain%2FTheWednesdayEveningMenu.ttl&query=prefix%20rdf%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%20%0Aprefix%20owl%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%20%0Aprefix%20rdfs%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20%0Aprefix%20xsd%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%20%0A%0Aprefix%20ont%3A%09%09%3Chttps%3A%2F%2Flinkedbuildingdata.net%2Fldac2023%2Fsummerschool%2FBurgerOntology%23%3E%20%09%23%20The%20SSoLDAC2024%20Burger%20Ontology%20(Tbox!)%0Aprefix%20rub%3A%09%09%3Chttps%3A%2F%2Flinkedbuildingdata.net%2Fldac2023%2Fsummerschool%2FBurgerMenu%23%3E%20%09%23%20The%20SSoLDAC2024%20Burger%20Menu%20(Abox!)%0A%0ASELECT%20*%0AWHERE%20%7B%0A%20%20%3FMenuItem%20rdf%3Atype%20ont%3AMenuItem%20.%0A%20%20%3FMenuItem%20ont%3AhasIngredients%20ont%3ABurger%20.%0A%7D%20limit%20100
+
+
+
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
