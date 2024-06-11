@@ -1,0 +1,51 @@
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix ont:		<https://linkedbuildingdata.net/ldac2023/summerschool/BurgerOntology#> . 	# The SSoLDAC2024 Burger Ontology (Tbox!)
+@prefix rub:		<https://linkedbuildingdata.net/ldac2023/summerschool/BurgerMenu#> . 		# The SSoLDAC2024 Burger Menu (Abox!)
+
+rub:PottburgerClassic
+		rdfs:label			"Pottburger Classic"@de , "Pottburger Classic"@en ;
+		rdf:type			ont:MenuItem , ont:NonVegetarianFood ;
+		ont:hasIngredients	ont:Burger , ont:Cheddar .
+
+rub:PottburgerBacon
+		rdfs:label			"Pottburger Bacon"@de , "Pottburger Bacon"@en ;
+		rdf:type			ont:MenuItem , ont:NonVegetarianFood ;
+		ont:hasIngredients	ont:Burger , ont:Bacon .
+
+rub:PulledPork
+		rdfs:label			"Pulled Pork"@de , "Pulled Pork"@en ;
+		rdf:type			ont:MenuItem , ont:NonVegetarianFood ;
+		ont:hasIngredients	ont:PulledPork , ont:Coleslaw .
+		
+rub:DerVeggienator
+		rdfs:label			"Der Veggienator"@de , "The Veggienator"@en ;
+		rdf:type			ont:MenuItem , ont:VegetarianFood ;
+		ont:hasIngredients	ont:VegetarianPatty , ont:MangoAioli .
+		
+rub:KrosseFritten
+		rdfs:label			"KrosseFritten"@de , "Crusty Fries"@en ;
+		rdf:type			ont:MenuItem , ont:SideDish .
+		
+rub:FrischerGemischterBeilagenSalat
+		rdfs:label			"Frischer gemischter beilagen salat"@de , "Fresh mixed side salad"@en ;
+		rdf:type			ont:MenuItem , ont:SideDish .
+		
+rub:Balsamico-Olivenol
+		rdfs:label			"Balsamico-Olivenöl"@de , "Balsamic olive oil"@en ;
+		rdf:type			ont:MenuItem , ont:SideDish .
+
+rub:MangoAioli	
+		rdfs:label			"Mango Aioli"@de , "Mango Aioli"@en ;
+		rdf:type			ont:MenuItem , ont:SideDish .
+
+rub:Ketchup
+		rdfs:label			"Ketchup"@de , "Ketchup"@en ;
+		rdf:type			ont:MenuItem , ont:SideDish , ont:Sauce .
+		
+rub:Majo
+		rdfs:label			"Majo"@de , "Mayo"@en ;
+		rdf:type			ont:MenuItem , ont:SideDish , ont:Sauce .
