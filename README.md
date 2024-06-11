@@ -29,6 +29,7 @@ Graph Databases / Query Engines
 - [GraphDB Free](https://www.ontotext.com/products/graphdb/download/)
 - [Apache Jena Fuseki (open source)](https://jena.apache.org/documentation/fuseki2/)
 - [Comunica (client-side querying)](https://comunica.github.io/comunica/)
+- [Oxigraph](https://github.com/oxigraph/oxigraph) / [Oxigraph for Javascript (only in memory storage)](https://www.npmjs.com/package/oxigraph)
 
 Validation
 - [OOPS!](https://oops.linkeddata.es/)
