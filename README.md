@@ -74,10 +74,12 @@ Software tools and python libraries:
 - [OWLRL](https://owl-rl.readthedocs.io/en/latest/owlrl.html) pip install owlrl
 - [pandas](https://pandas.pydata.org/) pip install pandas
 - [requests](https://pypi.org/project/requests/) pip install requests
+- [sparqlwrapper](https://pypi.org/project/sparqlwrapper/) pip install sparqlwrapper
 
 IFC + LBD visualizers
 - [LBDviz](https://alexdonkers.github.io/LBDviz/dist/index.html)
 - [LD-BIM](https://ld-bim.web.app/)
+- [sparql-visualizer](https://madsholten.github.io/sparql-visualizer/)
 
 Ontology Visualizers
 - [OWLGrEd](http://owlgred.lumii.lv/)
