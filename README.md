@@ -37,7 +37,7 @@ Validation
 
 Publishing the ontology:
 - [WIDOCO](https://github.com/dgarijo/Widoco) to make HTML documentation
-- [LODE](https://essepuntato.it/lode/) to make a more lightweight HTML documentation
+- [LODE](https://essepuntato.it/lode/) / [pyLODE](https://github.com/RDFLib/pyLODE)  to make a more lightweight HTML documentation
 - [prefix.cc](http://prefix.cc) to claim your prefix
 - [w3 perma id](https://github.com/perma-id/w3id.org) to claim your https://w3id.org/xxxxx namespace
 - [Linked Open Vocabularies](https://lov.linkeddata.es/dataset/lov/)
@@ -61,7 +61,7 @@ Best practice documents:
 LBD ontologies:
 - Buildings: [BOT](https://w3id.org/bot), [DogOnt](http://iot-ontologies.github.io/dogont/), [SAREF4BLDG](https://saref.etsi.org/saref4bldg/), [REC](https://dev.realestatecore.io/ontology/index.full), [ifcOWL](https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL/)
 - Element taxonomies: [BEO](https://w3id.org/beo)
-- Properties: [OPM](http://www.w3id.org/opm), [BOP](http://www.w3id.org/bop)
+- Properties: [OPM](http://www.w3id.org/opm), [BOP](http://www.w3id.org/bop), [ISOProps](http://www.w3id.org/isoprops)
 - Sensors: [SOSA/SSN](https://www.w3.org/TR/vocab-ssn/), [SAREF](https://saref.etsi.org/), [SEAS](http://www.w3id.org/seas), [BOP](http://www.w3id.org/bop)
 - Geometry: [OMG](https://w3id.org/omg), [GeoSPARQL](http://www.opengis.net/ont/geosparql), [GOM](https://w3id.org/gom), [FOG](https://w3id.org/fog)
 - HVAC: [Brick](https://brickschema.org/ontology/1.3), [TSO](https://rwth-e3d.github.io/tso/), [FSO](https://alikucukavci.github.io/FSO/)
